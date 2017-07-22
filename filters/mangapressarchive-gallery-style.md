@@ -18,6 +18,45 @@ add_filter('mangapress_archive_gallery_style', 'myplugin_disable_gallery_styles'
 ?>
 ```
 
+Default CSS styles (use in your own stylesheet):
+
+```css
+.mangapress-archive-gallery {
+     font-size: 0;
+}
+
+.mangapress-archive-gallery > li {
+    text-align: center;
+    width: 125px;
+    min-height: 200px;
+    font-size: 12px;
+    list-style: none;
+    margin: 10px;
+    float: left;
+}
+
+.mangapress-archive-gallery > li:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.comic-title-caption,
+.comic-post-date {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.comic-title-caption {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+```
 
 {% endmethod %}
 
