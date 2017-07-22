@@ -19,6 +19,7 @@ Generates an unordered list of links for navigating between comic posts. Should 
 * `$link_after`: Content after navigation link (but inside tag specified by `$link_wrap`).
 
 {% sample lang="php" -%}
+### Example
 Short example of using `mangapress_comic_navigation()`:
 ```php
 <div class="container">
