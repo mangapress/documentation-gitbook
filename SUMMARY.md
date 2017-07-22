@@ -6,5 +6,7 @@
 
 ## Template Tags
 
-* [Conditional Template Tags](methods.md)
+* [Conditional Template Tags](/conditional-template-tags.md)
+
+
 
