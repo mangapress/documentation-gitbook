@@ -8,6 +8,7 @@ Manga+Press has a few conditional template tags that work similar to Template Ta
 Returns `true` if post is a comic, otherwise returns `false`. Used to detect comic posts from regular posts.
 
 {% sample lang="php" -%}
+Short example of using `is_comic()`:
 ```php
 <?php
     if (is_comic()) {
