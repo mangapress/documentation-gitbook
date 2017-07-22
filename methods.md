@@ -36,5 +36,4 @@ Short example of using `is_comic_page()`:
 ?>
 ```
 
-
 {% endmethod %}
