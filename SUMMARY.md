@@ -3,6 +3,7 @@
 ## Overview
 
 * [Developer API](README.md)
+* [mangapress\_comic\_navigation](mangapresscomic-navigation.md)
 
 ## Themes
 
