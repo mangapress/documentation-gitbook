@@ -18,7 +18,7 @@
 
 * mangapress get previous post in loop
 * mangapress get next post in loop
-* [mangapress\_get\_calendar](https://www.gitbook.com/book/jesgs/manga-press-developer-api/edit#)
+* [mangapress\_get\_calendar](//mangapress-get-calendar.md)
 
 * mangapress month link
 
