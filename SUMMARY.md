@@ -8,5 +8,5 @@
   * [Installation](getting-started/installation.md)
   * [Configuring Manga+Press](getting-started/configuring-manga+press.md)
   * [Theme Customization](getting-started/theme-customization.md)
-  * Using Manga+Press
+  * [Using Manga+Press](getting-started/using-manga+press.md)
 
