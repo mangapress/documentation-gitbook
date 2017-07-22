@@ -1,7 +1,6 @@
 # Summary
 
-* Guides
-  * Frequently Asked Questions
-
-
+* [Introduction](README.md)
+* [Guides](guides.md)
+  * [Frequently Asked Questions](frequently-asked-questions.md)
 
