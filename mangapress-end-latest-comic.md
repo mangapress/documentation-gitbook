@@ -10,8 +10,8 @@ None
 <?php mangapress_end_latest_comic(); ?>
 ```
 
-### Example
 {% sample lang="php" -%}
+### Example
 ```php
 <?php    
     mangapress_start_latest_comic();
