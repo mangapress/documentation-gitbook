@@ -3,7 +3,12 @@
 * [Introduction](README.md)
 * [Guides](guides.md)
   * [Frequently Asked Questions](frequently-asked-questions.md)
-  * Contributing
+  * [Contributing](contributing.md)
+* [Getting Started](getting-started.md)
+  * Installation
+  * Configuring Manga+Press
+  * Theme Customization
+  * Using Manga+Press
 
 
 
