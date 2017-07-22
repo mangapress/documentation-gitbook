@@ -1,6 +1,6 @@
 {% method %}
 ## mangapress_start_latest_comic()
-Starts a Latest Comic loop.
+Starts a Latest Comic loop. See mangapress_end_latest_comic()
 
 ### Parameters
 None
