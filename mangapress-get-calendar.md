@@ -8,6 +8,11 @@ Outputs a calendar displaying the current month's comic posts. Post-type-neutral
 <?php mangapress_get_calendar(); ?>
 ```
 
+### Parameters:
+
+* $initial (boolean)(optional): If true, the day will be displayed using a one-letter initial; if false, an abbreviation based on your localization will be used.
+* $echo (boolean)(optional): If true, will output the calendar. Defaults to true. False will return the markup as a string.
+
 {% endmethod %}
 
 
