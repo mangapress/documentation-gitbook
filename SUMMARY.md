@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [Developers API](README.md)
+* [Developer API](README.md)
 
 ## Themes
 

@@ -1,4 +1,4 @@
-# Manga+Press Developers API
+# Manga+Press Developer API
 
 API documentation for developers
 
