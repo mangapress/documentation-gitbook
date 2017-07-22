@@ -6,7 +6,10 @@
 
 ## Themes
 
+* [Image Sizes](https://www.gitbook.com/book/jesgs/manga-press-developer-api/edit#)
+
 * [Conditional Template Tags](/conditional-template-tags.md)
+
 * [Template Tags](template-tags.md)
   * [mangapress\_comic\_navigation](/mangapress-comic-navigation.md)
   * [mangapress\_start\_latest\_comic](/mangapress-start-latest-comic.md)
