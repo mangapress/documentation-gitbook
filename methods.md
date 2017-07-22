@@ -1,30 +1,9 @@
 # Conditional Template Tags
 
-Methods allow you to smoothly display code examples in different languages.
+Manga+Press has a few conditional template tags that work similar to Template Tags in WordPress
 
 {% method %}
 ## is_comic()
 
-My first method exposes how to print a message in JavaScript and Go.
-
-{% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
-
-```js
-console.log('My first method');
-```
-
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
-
-```go
-fmt.Println("My first method")
-```
-
-{% common %}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
-```
+Returns `true` if post is a comic, otherwise returns `false`. Used to detect comic posts from regular posts.
 {% endmethod %}
