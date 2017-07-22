@@ -16,6 +16,14 @@
 
 ## Functions
 
+* mangapress get previous post in loop
+* mangapress get next post in loop
+* [mangapress\_get\_calendar](https://www.gitbook.com/book/jesgs/manga-press-developer-api/edit#)
+
+* mangapress month link
+
+* mangapress day link
+
 ## Filters
 
 ## Actions
