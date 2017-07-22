@@ -6,7 +6,7 @@
   * [Contributing](contributing.md)
 * [Getting Started](getting-started.md)
   * [Installation](getting-started/installation.md)
-  * Configuring Manga+Press
+  * [Configuring Manga+Press](getting-started/configuring-manga+press.md)
   * Theme Customization
   * Using Manga+Press
 
