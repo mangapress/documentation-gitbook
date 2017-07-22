@@ -19,7 +19,7 @@
 * [mangapress\_get\_previous\_post\_in\_loop](mangapress-get-previous-post-in-loop.md)
 * [mangapress\_get\_next\_post\_in\_loop](mangapress-get-next-post-in-loop.md)
 * [mangapress\_get\_calendar](//mangapress-get-calendar.md)
-* mangapress month link
+* [mangapress\_month\_link](mangapress-month-link.md)
 * mangapress day link
 
 ## Filters
