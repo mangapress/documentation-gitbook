@@ -1,7 +1,7 @@
 {% method %}
 ## mangapress_month_link
 
-Create a date-archive permalink for Comics (for monthly links). Used by mangapress_get_calendar(). Returns a date-based url.
+Create a date-archive permalink for Comics (for monthly links). Used by `mangapress_get_calendar()`. Returns a date-based url.
 
 ### Usage
 ```php
