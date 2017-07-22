@@ -16,17 +16,13 @@
 
 ## Functions
 
-* mangapress get previous post in loop
+* [mangapress get previous post in loop](mangapress-get-previous-post-in-loop.md)
 * mangapress get next post in loop
 * [mangapress\_get\_calendar](//mangapress-get-calendar.md)
-
 * mangapress month link
-
 * mangapress day link
 
 ## Filters
 
 ## Actions
-
-
 
