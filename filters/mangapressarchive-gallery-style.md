@@ -4,7 +4,6 @@
 
 Filter for modifying default embedded CSS stylesheet for the Archive Gallery.
 
-{% sample lang="php" -%}
 ### Usage
 ```php
 <?php
