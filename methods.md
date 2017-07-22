@@ -20,3 +20,21 @@ Short example of using `is_comic()`:
 ```
 
 {% endmethod %}
+
+{% method %}
+## is_comic_page()
+Returns `true` if page is the Latest Comic Page, otherwise returns `false`.
+{% sample lang="php" -%}
+Short example of using `is_comic_page()`:
+```php
+<?php
+    if (is_comic_page()) {
+        // do something for Latest Comic Page here
+    } else {
+        // ignore for all other posts
+    }
+?>
+```
+
+
+{% endmethod %}
