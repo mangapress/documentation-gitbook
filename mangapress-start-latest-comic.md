@@ -7,6 +7,8 @@ None
 
 ### Usage
 
+{% sample lang="php" -%}
+Example:
 ```php
 <?php    
     mangapress_start_latest_comic();
