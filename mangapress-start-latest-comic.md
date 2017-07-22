@@ -6,6 +6,7 @@ Starts a Latest Comic loop.
 None
 
 ### Usage
+{% sample lang="php" -%}
 ```php
 <?php    
     mangapress_start_latest_comic();
