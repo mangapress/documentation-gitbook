@@ -2,8 +2,9 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
+* [Developers API](README.md)
 
-## Methods
+## Template Tags
 
-* [Defining Methods](methods.md)
+* [Conditional Template Tags](methods.md)
+
