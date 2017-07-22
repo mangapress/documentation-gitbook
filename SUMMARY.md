@@ -3,11 +3,13 @@
 ## Overview
 
 * [Developer API](README.md)
-* [mangapress\_start\_latest\_comic](mangapressstart-latest-comic.md)
 
 ## Themes
 
 * [Conditional Template Tags](/conditional-template-tags.md)
 * [Template Tags](template-tags.md)
   * [mangapress\_comic\_navigation](/mangapress-comic-navigation.md)
+  * [mangapress\_start\_latest\_comic](https://www.gitbook.com/book/jesgs/manga-press-developer-api/edit#)
+
+
 
