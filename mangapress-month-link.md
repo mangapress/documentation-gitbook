@@ -6,7 +6,7 @@ Create a date-archive permalink for Comics (for monthly links). Used by mangapre
 ### Usage
 ```php
 <?php
-    $month_link = mangapress_month_link('', 2014, 09);
+    $month_link = mangapress_month_link('', 2014, 9);
 ?>
 ```
 
