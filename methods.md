@@ -37,3 +37,20 @@ Short example of using `is_comic_page()`:
 ```
 
 {% endmethod %}
+
+{% method %}
+## is_comic_archive_page()
+Returns `true` if page is the Comic Archive Page, otherwise returns `false`.
+{% sample lang="php" -%}
+Short example of using `is_comic_archive_page()`:
+```php
+<?php
+if (is_comic_archive_page()) {
+// do something for Latest Comic Page here
+} else {
+// ignore for all other posts
+}
+?>
+```
+
+{% endmethod %}
