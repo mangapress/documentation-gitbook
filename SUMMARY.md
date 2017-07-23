@@ -33,4 +33,5 @@
 ## Actions
 
 * [save\_post\_mangapress\_comic](actions/savepost-mangapresscomic.md)
+* [latest\_comic\_start](actions/latestcomic-start.md)
 
