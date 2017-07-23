@@ -1,10 +1,10 @@
 # Configuring Manga+Press
 
-Instructions on configuring Manga+Press are intended for working with the provided child-themes for TwentyEleven, -Twelve, -Thirteen, and TwentyFourteen. Other third-party themes may require additional adjustment.
+Instructions on configuring Manga+Press are intended for working with the provided child-themes for TwentyEleven, -Twelve, -Thirteen,  -Fourteen, and -Fifteen. Other third-party themes may require additional adjustment.
 
 ## How To Configure Manga+Press
 
-Manga+Press can work out of the box using the available child-themes for TwentyEleven through TwentyFourteen if there is no need for a Comic Archive page or a Latest Comic page.
+Manga+Press can work out of the box using the available child-themes for TwentyEleven through TwentyFifteen if there is no need for a Comic Archive page or a Latest Comic page.
 
 ### Set up Latest Comic and Comic Archive pages
 
@@ -18,9 +18,9 @@ On the "Basic" options tab of the Manga+Press Settings page, the first two optio
 
 When "Group Comics" is enabled, then comics are grouped according to their mutually assigned categories. For example, if Comic A and Comic B are a part of **Series \#1**, but Comic C and -D are a part of **Series \#2**, then navigation will exist between Comic A and -B, and Comic C and D — but not between Comics A, B, C, and D.
 
-##### Use Parent Category
+#### Use Parent Category
 
-This option only works when the "Group Comics" option is selected. It works similar to "Group Comics" but the comics are grouped according to their top-most parent category. In this example, Comics A, B, C, and D are assigned to**Issue \#2.1**, which has a parent called**Series \#2**, while the next group: Comics E, F, G, and I are assigned to**Issue \#3.1**, which has a parent called**Series \#3**. Navigation will exist between the comics assigned to**Series \#2**, and to the comics assigned to**Series \#3**but navigation will not exist between Comic D \(Series \#2\) and Comic E \(Series \#3\).
+This option only works when the "Group Comics" option is selected. It works similar to "Group Comics" but the comics are grouped according to their top-most parent category. In this example, Comics A, B, C, and D are assigned to **Issue \#2.1**, which has a parent called **Series \#2**, while the next group: Comics E, F, G, and I are assigned to **Issue \#3.1**, which has a parent called **Series \#3**. Navigation will exist between the comics assigned to **Series \#2**, and to the comics assigned to **Series \#3 **but navigation will not exist between Comic D \(Series \#2\) and Comic E \(Series \#3\).
 
 #### Archive Page Style \(Manga+Press 3.0\)
 
