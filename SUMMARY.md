@@ -32,7 +32,5 @@
 
 ## Actions
 
-* save\_post\_mangapress\_comic
-
-
+* [save\_post\_mangapress\_comic](actions/savepost-mangapresscomic.md)
 
