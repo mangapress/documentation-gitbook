@@ -6,6 +6,7 @@ Filter for modifying array of options fields. Must be run on `admin_init`.
 * `$options (array)` Default array of plugin options.
 
 ### Usage
+Example for removing/disabling options in Manga+Press
 ```php
 /**
  * Run the action that disables the insert_nav option.
@@ -32,23 +33,43 @@ function _disable_options($options)
 }
 
 ```
+
+{% sample lang="php" -%}
 ### Example
+Use `mangapress_option_fields` to add custom options.
+
 ```php
-array(
-    'archive_order'    => array(
-        'id'     => 'order',
-        'title'  => __('Archive Page Comic Order', MP_DOMAIN),
-        'description' => __('Designates the ascending or descending order of the orderby parameter', MP_DOMAIN),
-        'type'   => 'select',
-        'value'  => array(
-            'ASC'  => __('ASC', MP_DOMAIN),
-            'DESC' => __('DESC', MP_DOMAIN),
-        ),
-        'valid'   => 'array',
-        'default' => 'DESC',
-        'callback' => array($this, 'settings_field_cb'),
-    )
-)
+<?php
+/**
+ * Initialize custom options.
+ */
+function my_options_init() {
+    add_action('mangapress_option_fields', 'add_custom_option');
+}
+add_action('admin_init', 'my_options_init');
+
+/**
+ * Add new option to the options array.
+ *
+ * @param array $options
+ * @return array
+ */
+function add_custom_option($options)
+{
+    // register section with mangapress_options_section
+    $custom_option['my_custom_section'] = array(
+        'my_custom_option' => array(
+            'id' => 'custom-option',
+            'title' => __('My Custom Option', MY_TEXT_DOMAIN),
+            'description' => __('Description of text field', MY_TEXT_DOMAIN),
+            'type' => 'text',
+            'value' => 'your value',
+            'callback' => array($this, 'settings_field_cb'), // default value
+        )
+    );
+
+    return array_merge($options, $custom_option);
+}
 ```
 {% endmethod %}
 
