@@ -26,9 +26,7 @@
 
 * [mangapress\_archive\_gallery\_style](filters/mangapressarchive-gallery-style.md)
 * [mangapress\_options\_fields](filters/mangapressoption-fields.md)
-* mangapress\_comic\_front\_slug
+* [mangapress\_comic\_front\_slug](filters/mangapresscomic-front-slug.md)
 
 ## Actions
-
-
 
