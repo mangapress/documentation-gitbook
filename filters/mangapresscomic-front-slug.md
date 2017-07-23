@@ -9,8 +9,7 @@ Allow plugins (or options) to modify Comic front slug (default: /comic/)
 ### Usage
 
 ```php
-<?php
-    
+<?php    
     /**
      * Change post-type's front slug
      */
@@ -19,7 +18,6 @@ Allow plugins (or options) to modify Comic front slug (default: /comic/)
         return 'new-slug';
     }
     add_filter('mangapress_comic_front_slug', 'my_new_slug');
-);
 ?>
 ```
 
