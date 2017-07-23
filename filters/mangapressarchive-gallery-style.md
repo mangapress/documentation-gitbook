@@ -4,6 +4,10 @@
 
 Filter for modifying default embedded CSS stylesheet for the Archive Gallery.
 
+### Parameters
+
+* `$styles (array)(optional)` Embedded CSS stylesheet string used to override defaults.
+
 ### Usage
 ```php
 <?php
