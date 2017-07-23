@@ -25,6 +25,9 @@
 ## Filters
 
 * [mangapress\_archive\_gallery\_style](filters/mangapressarchive-gallery-style.md)
+* mangapress\_option\_fields
 
 ## Actions
+
+
 
