@@ -32,3 +32,7 @@
 
 ## Actions
 
+* save\_post\_mangapress\_comic
+
+
+
