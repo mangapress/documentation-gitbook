@@ -4,7 +4,7 @@ Manga+Press comes with its own child-themes based off the WordPress themes Twent
 
 By default, Manga+Press uses its own templates for the Latest Comic Page, Comic Archive Page, and Comic Post. The Manga+Press default templates can be found under`mangapress\templates`. Inside this directory is a sub-directory called`content`. This is specifically for the Latest Comic page and Comic Archive page, which works by filtering the page's content and replacing it with the generated content from these two templates.
 
-## Customizing a Third-Party Theme
+## Tutorial: Customizing a Third-Party Theme
 
 This example uses [Customizr](http://themesandco.com/customizr), one of the popular free themes available on WordPress.org. The example child-theme used can be downloaded \[[here](http://www.manga-press.com/uploads/2014/11/mp-customizr.tar.gz)\]
 
@@ -71,11 +71,11 @@ Finally, if the navigation is showing up but is displaying incorrectly, then you
     clear: both;
     float: none;
 }
- 
+
 .comic-nav-hlist {
     list-style: none;
 }
- 
+
 .comic-nav-hlist > li {
     float: left;
     margin-right: 10px;
