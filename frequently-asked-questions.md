@@ -4,14 +4,6 @@
 
 This is because the navigation for the comics is built into the theme. Using a different theme or overriding the default theme's template will allow you to use the options.
 
-#### _Does Manga+Press work on WordPress Multi-site?_
-
-Yes, it does. However, a few steps must be taken to make Manga+Press' child-themes available to your network. See the question below on the steps to take to enable the child-themes on Multisite.
-
-#### _The bundled themes aren't available in WordPress Multi-site. What's going on?_
-
-This is because the plugin hasn't been activated for the entire MS network. In order for the child-themes to be available, Manga+Press must be available to the entire network. This can be done by going to **Network Admin &gt; Plugins **and clicking the\_Network Activate\_link for Manga+Press. Once this is done, then both the parent- and child-themes need to made available to the network as well. This can be accomplished by going to **Network Admin &gt; Themes**, selecting the themes in question, choosing **Bulk Actions &gt; Network Enable**, and then clicking **Apply**.
-
 #### _Is Manga+Press responsive?_
 
 Not by itself. However, Manga+Press doesn't output markup other than the comic navigation. Responsiveness depends on the theme that is being used. The themes bundled with Manga+Press — the TwentyEleven thru TwentyFifteen child-themes — all have some level of responsiveness that is dependent on their parent themes.
