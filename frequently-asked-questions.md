@@ -10,7 +10,7 @@ Not by itself. However, Manga+Press doesn't output markup other than the comic n
 
 #### _Is Manga+Press compatible with Advanced Custom Fields_
 
-Yes, it is! Manga+Press is simply a stripped down custom post-type with a custom Featured Image meta-box. Like any other post-type, you can add a new field group using ACF — however, you\_will\_have to configure your theme to display these custom fields.
+Yes, it is! Manga+Press is simply a stripped down custom post-type with a custom Featured Image meta-box. Like any other post-type, you can add a new field group using ACF — however, you _will_ have to configure your theme to display these custom fields.
 
 #### _Is Manga+Press compatible with the WPML plugin?_
 
