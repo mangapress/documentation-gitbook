@@ -1,8 +1,8 @@
 {% method %}
-## the_comicarchive_content_error
+### the_comicarchive_content_error
 Filters the 'No Comics' message on the Comic Archive page.
 
-### Parameters
+#### Parameters
 * `$error (string)` Default error message
 {% endmethod %}
 

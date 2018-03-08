@@ -1,15 +1,15 @@
 {% method %}
 
-## mangapress_comic_navigation($args, $echo)
+### mangapress_comic_navigation($args, $echo)
 
 Generates an unordered list of links for navigating between comic posts. Should be used inside a loop.
 
-### Parameters
+#### Parameters
 
 * `$args (array)` Navigation output arguments
 * `$echo (boolean)` Specifies whether to echo comic navigation or return it as a string. Defaults to true.
 
-#### Parameters for `$args`
+##### Parameters for `$args`
 * `$container`: Wrapper tag for comic navigation. Defaults to nav. Use false for no container.
 * `$container_attr`: Attributes for container tag. Can be used for setting custom IDs or classes. Defaults to `array('id' => 'comic-navigation')`.
 * `$items_wrap`: Navigation items wrapper. Defaults to `<ul%1$s>%2$s</ul>`. Can be useful for those situations when you don't want the navigation to be an unordered list.
@@ -19,7 +19,7 @@ Generates an unordered list of links for navigating between comic posts. Should 
 * `$link_after`: Content after navigation link (but inside tag specified by `$link_wrap`).
 
 {% sample lang="php" -%}
-### Example
+#### Example
 Short example of using `mangapress_comic_navigation()`:
 ```php
 <div class="container">

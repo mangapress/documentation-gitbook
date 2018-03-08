@@ -1,16 +1,16 @@
 {% method %}
-## mangapress_day_link
+### mangapress_day_link
 
 Create a date-archive permalink for Comics. Used by `mangapress_get_calendar()`. Returns a date-based url.
 
-### Usage
+#### Usage
 ```php
 <?php
     $day_link = mangapress_day_link('', 2014, 9, 2);
 ?>
 ```
 
-### Parameters
+#### Parameters
 
 * `$daylink (string)(not used)` Existing link to be modified or replaced. Not used.
 * `$year (string|int)(optional)` Desired year for URL.

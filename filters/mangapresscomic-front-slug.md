@@ -1,12 +1,12 @@
 {% method %}
-## mangapress_comic_front_slug
+### mangapress_comic_front_slug
 
 Allow plugins (or options) to modify Comic front slug (default: /comic/)
 
-### Parameters
+#### Parameters
 * `$slug (string)` Default front slug
 
-### Usage
+#### Usage
 
 ```php
 <?php    

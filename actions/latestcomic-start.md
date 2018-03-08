@@ -1,8 +1,8 @@
 {% method %}
-## latest_comic_start
+### latest_comic_start
 Runs at the start of the Latest Comic loop.
 
-### Parameters
+#### Parameters
 None
 
 {% endmethod %}
