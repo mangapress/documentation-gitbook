@@ -1,4 +1,8 @@
-## [Introduction](README.md)
+# Summary
+
+## Introduction
+
+* [Introduction](README.md)
 
 ## Guides
 
@@ -9,8 +13,6 @@
 
 * [Installation](getting-started/installation.md)
 * [Configuring Manga+Press](getting-started/configuring-manga+press.md)
-* [Theme Customization](getting-started/theme-customization.md)
 * [Using Manga+Press](getting-started/using-manga+press.md)
-
-
+* [Theme Customization](getting-started/theme-customization.md)
 
