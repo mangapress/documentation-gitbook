@@ -1,14 +1,15 @@
-{% method %}
+# mangapress\_archive\_gallery\_style
 
-### mangapress_archive_gallery_style
+## mangapress\_archive\_gallery\_style
 
 Filter for modifying default embedded CSS stylesheet for the Archive Gallery.
 
-#### Parameters
+### Parameters
 
 * `$styles (array)(optional)` Embedded CSS stylesheet string used to override defaults.
 
-#### Usage
+### Usage
+
 ```php
 <?php
 /**
@@ -22,7 +23,7 @@ add_filter('mangapress_archive_gallery_style', 'myplugin_disable_gallery_styles'
 ?>
 ```
 
-Default CSS styles (use in your own stylesheet):
+Default CSS styles \(use in your own stylesheet\):
 
 ```css
 .mangapress-archive-gallery {
@@ -61,6 +62,4 @@ Default CSS styles (use in your own stylesheet):
     white-space: nowrap;
 }
 ```
-
-{% endmethod %}
 

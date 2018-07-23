@@ -1,12 +1,17 @@
-{% method %}
-### mangapress_options_fields
+# mangapress\_options\_fields
+
+## mangapress\_options\_fields
+
 Filter for modifying array of options fields. Must be run on `admin_init`.
 
-#### Parameters
+### Parameters
+
 * `$options (array)` Default array of plugin options.
 
-#### Usage
+### Usage
+
 Example for removing/disabling options in Manga+Press
+
 ```php
 /**
  * Run the action that disables the insert_nav option.
@@ -28,14 +33,13 @@ function _disable_options($options)
     if (isset($options['nav']['insert_nav'])) {        
         unset($options['nav']['insert_nav']);
     }
-    
+
     return $options;    
 }
-
 ```
 
-{% sample lang="php" -%}
-#### Example
+### Example
+
 Use `mangapress_option_fields` to add custom options.
 
 ```php
@@ -71,5 +75,4 @@ function add_custom_option($options)
     return array_merge($options, $custom_option);
 }
 ```
-{% endmethod %}
 
