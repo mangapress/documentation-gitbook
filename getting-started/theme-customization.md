@@ -1,3 +1,5 @@
+# Theme Customization
+
 ## Overview
 
 Manga+Press comes with its own child-themes based off the WordPress themes TwentyEleven through TwentyFourteen. These themes live in the`mangapress\themes`directory \(under`plugins`\). The templates that Manga+Press uses can be found under`/comics`subdirectory of each child-theme. Manga+Press can also make use of the basic WordPress templates if the Manga+Press templates aren't available in the selected theme.
@@ -9,9 +11,7 @@ By default, Manga+Press uses its own templates for the Latest Comic Page, Comic 
 This example uses [Customizr](http://themesandco.com/customizr), one of the popular free themes available on WordPress.org. The example child-theme used can be downloaded \[[here](http://www.manga-press.com/uploads/2014/11/mp-customizr.tar.gz)\].
 
 1. We start by creating a child-theme — in this case, we're using Customizr. We'll call the new theme's directory`mp-customizr`
-
 2. Create a`style.css`file inside the`mp-customizr`directory.
-
 3. At the top of the`style.css`file, add the following theme header:
 
 ```css
@@ -30,7 +30,6 @@ Tags: comics, comic theme, manga press, webcomics, online comics, customizr
 Navigate to`Appearance > Themes`in the WordPress Admin. You should see the new child-theme listed with the available themes. Go ahead and activate the theme.
 
 1. Inside your child-theme, create a`single-comic.php`file. Open`index.php`inside the`customizr`directory, and then copy the contents of`customizr\index.php`to`single-comic.php`.
-
 2. Add the following lines of code to`single-comic.php`below line 38 \(line 38 should be:`<?php do_action('__loop') ?>`\)
 
    ```php
@@ -75,6 +74,4 @@ Finally, if the navigation is showing up but is displaying incorrectly, then you
     margin-right: 10px;
 }
 ```
-
-
 

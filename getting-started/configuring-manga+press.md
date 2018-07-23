@@ -1,6 +1,6 @@
 # Configuring Manga+Press
 
-Instructions on configuring Manga+Press are intended for working with the provided child-themes for TwentyEleven, -Twelve, -Thirteen,  -Fourteen, and -Fifteen. Other third-party themes may require additional adjustment.
+Instructions on configuring Manga+Press are intended for working with the provided child-themes for TwentyEleven, -Twelve, -Thirteen, -Fourteen, and -Fifteen. Other third-party themes may require additional adjustment.
 
 ## How To Configure Manga+Press
 
@@ -20,7 +20,7 @@ When "Group Comics" is enabled, then comics are grouped according to their mutua
 
 #### Use Parent Category
 
-This option only works when the "Group Comics" option is selected. It works similar to "Group Comics" but the comics are grouped according to their top-most parent category. In this example, Comics A, B, C, and D are assigned to **Issue \#2.1**, which has a parent called **Series \#2**, while the next group: Comics E, F, G, and I are assigned to **Issue \#3.1**, which has a parent called **Series \#3**. Navigation will exist between the comics assigned to **Series \#2**, and to the comics assigned to **Series \#3 **but navigation will not exist between Comic D \(Series \#2\) and Comic E \(Series \#3\).
+This option only works when the "Group Comics" option is selected. It works similar to "Group Comics" but the comics are grouped according to their top-most parent category. In this example, Comics A, B, C, and D are assigned to **Issue \#2.1**, which has a parent called **Series \#2**, while the next group: Comics E, F, G, and I are assigned to **Issue \#3.1**, which has a parent called **Series \#3**. Navigation will exist between the comics assigned to **Series \#2**, and to the comics assigned to **Series \#3** but navigation will not exist between Comic D \(Series \#2\) and Comic E \(Series \#3\).
 
 #### Archive Page Style \(Manga+Press 3.0\)
 

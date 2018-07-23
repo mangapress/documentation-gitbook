@@ -1,13 +1,15 @@
-# Summary
-
-## Introduction
+# Table of contents
 
 * [Introduction](README.md)
 
+## Introduction
+
+* [Introduction](introduction/readme.md)
+
 ## Guides
 
-* [Frequently Asked Questions](frequently-asked-questions.md)
-* [Contributing](contributing.md)
+* [Frequently Asked Questions](guides/frequently-asked-questions.md)
+* [Contributing](guides/contributing.md)
 
 ## Getting Started
 
