@@ -1,6 +1,6 @@
-# mangapress\_archive\_gallery\_style
+# mangapress_archive_gallery_style
 
-## mangapress\_archive\_gallery\_style
+## mangapress_archive_gallery_style
 
 Filter for modifying default embedded CSS stylesheet for the Archive Gallery.
 
