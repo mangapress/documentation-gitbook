@@ -22,5 +22,5 @@ Feature requests can be submitted [here](https://manga-press.com/support/).
 
 ### Providing i18l support
 
-Finally, the biggest area that help is needed in is multi-language support. Currently, Manga+Press has a Spanish-language version but I am not a native Spanish speaker, and I'm relying on Google translate
+Finally, the biggest area that help is needed in is multi-language support. Currently, Manga+Press has a Spanish-language version but I am not a native Spanish speaker, and I'm relying on Google Translate for my own translation needs.
 
