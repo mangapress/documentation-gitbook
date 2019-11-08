@@ -15,8 +15,8 @@
 ## Developer API
 
 * [Image Sizes](developer-api/image-sizes.md)
-* [Template Tags](developer-api/template-tags.md)
-* [Functions](developer-api/actions.md)
-* [Filters](developer-api/filters.md)
-* [Actions](developer-api/actions.md)
+* [Template Tags](https://github.com/mangapress/documentation/tree/8f66c9321acc635a7720230fcb4f40706a404910/developer-api/template-tags.md)
+* [Functions](https://github.com/mangapress/documentation/tree/8f66c9321acc635a7720230fcb4f40706a404910/developer-api/actions.md)
+* [Filters](https://github.com/mangapress/documentation/tree/8f66c9321acc635a7720230fcb4f40706a404910/developer-api/filters.md)
+* [Actions](https://github.com/mangapress/documentation/tree/8f66c9321acc635a7720230fcb4f40706a404910/developer-api/actions.md)
 

@@ -1,14 +1,13 @@
-# Conditional Template Tags
+# Conditional Tags
 
 Manga+Press has a few conditional template tags that work similar to Template Tags in WordPress
 
-{% method %}
-## is_comic()
+## is\_comic\(\)
 
 Returns `true` if post is a comic, otherwise returns `false`. Used to detect comic posts from regular posts.
 
-{% sample lang="php" -%}
 Short example of using `is_comic()`:
+
 ```php
 <?php
     if (is_comic()) {
@@ -19,13 +18,12 @@ Short example of using `is_comic()`:
 ?>
 ```
 
-{% endmethod %}
+## is\_comic\_page\(\)
 
-{% method %}
-## is_comic_page()
 Returns `true` if page is the Latest Comic Page, otherwise returns `false`.
-{% sample lang="php" -%}
+
 Short example of using `is_comic_page()`:
+
 ```php
 <?php
     if (is_comic_page()) {
@@ -36,13 +34,12 @@ Short example of using `is_comic_page()`:
 ?>
 ```
 
-{% endmethod %}
+## is\_comic\_archive\_page\(\)
 
-{% method %}
-## is_comic_archive_page()
 Returns `true` if page is the Comic Archive Page, otherwise returns `false`.
-{% sample lang="php" -%}
+
 Short example of using `is_comic_archive_page()`:
+
 ```php
 <?php
 if (is_comic_archive_page()) {
@@ -53,4 +50,3 @@ if (is_comic_archive_page()) {
 ?>
 ```
 
-{% endmethod %}

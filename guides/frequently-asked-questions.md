@@ -16,6 +16,10 @@ Yes, it is! Manga+Press is simply a stripped down custom post-type with a custom
 
 I have never had the chance to test Manga+Press with the WPML plugin so I cannot guarantee compatibility.
 
+## _I set my Latest Comic page to be the home page in the WordPress admin, and now my comics won't show up. What happened?_
+
+Unfortunately, setting the Latest Comic page \(or the Comic Archive page\) to be your Home/Posts page overrides the queries that are run on that page to pull the most recent comic and the past comics. This is by design. I hope to add some functionality in the near-future to correct this.
+
 ## _Do you take feature requests?_
 
 I do take feature requests — however, there are a few criteria on which I judge each request:
