@@ -2,6 +2,7 @@
 
 ## Guides
 
+* [New in 4.0](guides/updates-4.0.md)
 * [Frequently Asked Questions](guides/frequently-asked-questions.md)
 * [Contributing](guides/contributing.md)
 
