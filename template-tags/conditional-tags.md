@@ -18,21 +18,40 @@ Short example of using `is_comic()`:
 ?>
 ```
 
-## is\_comic\_page\(\)
+## is\_comic\_page\(\) * behavior changed in 4.0
 
-Returns `true` if page is the Latest Comic Page, otherwise returns `false`.
+Returns `true` if page is a Comic Page, otherwise returns `false`.
 
 Short example of using `is_comic_page()`:
 
 ```php
 <?php
     if (is_comic_page()) {
-        // do something for Latest Comic Page here
+        // do something for Comic Page here
     } else {
         // ignore for all other posts
     }
 ?>
 ```
+
+## is_latest_comic_page()
+
+Returns `true` if the page is the Latest Comic page, otherwise `false`
+
+
+Short example of using `is_latest_comic_page()`:
+
+```php
+<?php
+if (is_latest_comic_page()) {
+// do something for Latest Comic Page here
+} else {
+// ignore for all other posts
+}
+?>
+```
+
+
 
 ## is\_comic\_archive\_page\(\)
 
@@ -43,7 +62,7 @@ Short example of using `is_comic_archive_page()`:
 ```php
 <?php
 if (is_comic_archive_page()) {
-// do something for Latest Comic Page here
+// do something for Comic Archive Page here
 } else {
 // ignore for all other posts
 }
