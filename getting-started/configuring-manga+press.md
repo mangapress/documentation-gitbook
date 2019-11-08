@@ -10,7 +10,7 @@ Manga+Press can work out of the box using the available child-themes for TwentyE
 
 Start by creating two new pages in the WordPress Admin, then navigate to **Settings &gt; Manga+Press Options**. On the first tab, labeled "Basic Options," select the pages you created in both the Latest Comic- and Comic Archive drop-downs. Manga+Press includes templates for both these pages, which are loaded by default. For further fine-tuning, add a custom template to your theme — ideally by creating child-theme of your selected theme. For more information on creating child-themes, see the WordPress Codex article on [child-themes](http://codex.wordpress.org/Child_Themes).
 
-Note: do not use the Latest Comic or Comic Archive pages as your Home and Posts page (WordPress Admin > Reading Settings) as this will override the queries on those pages and prevent your comics from displaying.
+Note: do not use the Latest Comic or Comic Archive pages as your Home and Posts page \(WordPress Admin &gt; Reading Settings\) as this will override the queries on those pages and prevent your comics from displaying.
 
 ### Configure Category Grouping
 
