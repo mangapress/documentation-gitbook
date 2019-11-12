@@ -22,9 +22,7 @@
 
 * [Conditional Tags](template-tags/conditional-tags.md)
 * [mangapress\_comic\_navigation](template-tags/mangapress-comic-navigation.md)
-* [mangapress\_end\_latest\_comic](template-tags/mangapress-end-latest-comic.md)
 * [mangapress\_get\_calendar](template-tags/mangapress-get-calendar.md)
-* [mangapress\_start\_latest\_comic](template-tags/mangapress-start-latest-comic.md)
 
 ## Functions
 
@@ -38,14 +36,23 @@
 * [mangapress\_start\_latest\_comic](functions/mangapress-start-latest-comic.md)
 
 ## Filters
-
+* [Manga+Press Template API — Filters](filters/template-api-filters.md)
 * [mangapress\_archive\_gallery\_style](filters/mangapressarchive-gallery-style.md)
 * [mangapress\_options\_fields](filters/mangapressoption-fields.md)
 * [mangapress\_comic\_front\_slug](filters/mangapresscomic-front-slug.md)
+* [mangapress_options_sections](filters/mangapress-options-sections.md)
+* [mangapress_comic_navigation_args](filters/mangapress_comic_navigation_args.md)
+* [mangapress_comic_navigation_items](filters/mangapress_comic_navigation_items.md)
+* [mangapress_get_adjacent_comic_args](filters/mangapress_get_adjacent_comic_args.md)
+* [mangapress_get_boundary_comic_args](filters/mangapress_get_boundary_comic_args.md)
+* [mangapress_archive_gallery_style](filters/mangapressarchive-gallery-style.md)
+* [mangapress_comic_front_slug](filters/mangapresscomic-front-slug.md)
+* [mangapress_options_fields](filters/mangapressoption-fields.md)
 
 ## Actions
 
+* [Manga+Press Template API — Actions](actions/template-api-actions.md)
 * [save\_post\_mangapress\_comic](actions/savepost-mangapresscomic.md)
-* [latest\_comic\_start](actions/latestcomic-start.md)
-* [latest\_comic\_end](actions/latestcomic-end.md)
+* [mangapress_comic_page_content](actions/mangapress_comic_page_content.md)
+* [mangapress_theme_compatible-$theme](actions/mangapress_theme-compatible-%24theme.md)
 
