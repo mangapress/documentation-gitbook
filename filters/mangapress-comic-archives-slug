@@ -1,0 +1,13 @@
+# mangapress_comic_archives_slug
+
+## mangapress_comic_archives_slug
+
+Allow plugins (or options) to modify post-type archive slug.
+
+Return string
+
+**@since** 4.0.0
+
+### Parameters
+
+* $slug (string) Default post-type archive slug, default `comic-archives`.

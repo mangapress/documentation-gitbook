@@ -1,14 +1,16 @@
 # Configuring Manga+Press
 
-Instructions on configuring Manga+Press are intended for working with the provided child-themes for TwentyEleven, -Twelve, -Thirteen, -Fourteen, and -Fifteen. Other third-party themes may require additional adjustment.
+Instructions on configuring Manga+Press are intended for working with the WordPress default themes TwentySixteen through TwentyNineteen.
 
 ## How To Configure Manga+Press
 
-Manga+Press can work out of the box using the available child-themes for TwentyEleven through TwentyFifteen if there is no need for a Comic Archive page or a Latest Comic page.
+Manga+Press can work out of the box using the WordPress default themes TwentySixteen through TwentyNineteen.
 
 ### Set up Latest Comic and Comic Archive pages
 
-Start by creating two new pages in the WordPress Admin, then navigate to **Settings &gt; Manga+Press Options**. On the first tab, labeled "Basic Options," select the pages you created in both the Latest Comic- and Comic Archive drop-downs. Manga+Press includes templates for both these pages, which are loaded by default. For further fine-tuning, add a custom template to your theme — ideally by creating child-theme of your selected theme. For more information on creating child-themes, see the WordPress Codex article on [child-themes](http://codex.wordpress.org/Child_Themes).
+Start by using the Comic Pages post-type to create two new pages for the Latest Comic page and the Comics Archive page. Make sure to use the **Comic Page Type** drop-down to specify the pages, as this will determine which template to load.
+
+Alternatively, you can use creating two new pages in the WordPress Admin, then navigate to **Settings &gt; Manga+Press Options**. On the first tab, labeled "Basic Options," select the pages you created in both the Latest Comic- and Comic Archive drop-downs. Manga+Press includes templates for both these pages, which are loaded by default. For further fine-tuning, add a custom template to your theme — ideally by creating child-theme of your selected theme. For more information on creating child-themes, see the WordPress Codex article on [child-themes](http://codex.wordpress.org/Child_Themes).
 
 Note: do not use the Latest Comic or Comic Archive pages as your Home and Posts page \(WordPress Admin &gt; Reading Settings\) as this will override the queries on those pages and prevent your comics from displaying.
 
@@ -24,11 +26,11 @@ When "Group Comics" is enabled, then comics are grouped according to their mutua
 
 This option only works when the "Group Comics" option is selected. It works similar to "Group Comics" but the comics are grouped according to their top-most parent category. In this example, Comics A, B, C, and D are assigned to **Issue \#2.1**, which has a parent called **Series \#2**, while the next group: Comics E, F, G, and I are assigned to **Issue \#3.1**, which has a parent called **Series \#3**. Navigation will exist between the comics assigned to **Series \#2**, and to the comics assigned to **Series \#3** but navigation will not exist between Comic D \(Series \#2\) and Comic E \(Series \#3\).
 
-#### Archive Page Style \(Manga+Press 3.0\)
+#### Archive Page Style
 
 Manga+Press 3.0 adds a new option for changing the appearance of the Archive Page. You now have three options: List \(default\), Calendar, and Gallery. Calendar displays a standard monthly calendar similar to the post calendar provided by WordPress. Gallery will show all comics in a grid layout using that post's thumbnail.
 
-#### Archive Page Sorting Order Options \(Manga+Press 3.0\)
+#### Archive Page Sorting Order Options
 
 Manga+Press 3.0 adds new options for changing the sorting order on the Archive Page. These options are the same basic parameters used by `order` and `orderby` in the [`WP_Query` object](https://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters). The drop-downs don't include the advanced sorting options available for WP\_Query \(for example: sorting by meta-data, comment-count, etc\).
 
