@@ -4,6 +4,8 @@
 
 Output the comic's cover image.
 
+**@since** 4.0.0
+
 ### Usage
 
 ```php
