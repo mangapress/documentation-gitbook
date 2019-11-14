@@ -4,6 +4,8 @@
 
 Checks current comic post for a cover image. Intended to be run inside The Loop.
 
+**@since** 4.0.0
+
 ### Usage
 
 ```php
