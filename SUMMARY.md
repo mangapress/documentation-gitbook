@@ -23,6 +23,9 @@
 * [Conditional Tags](template-tags/conditional-tags.md)
 * [mangapress\_comic\_navigation](template-tags/mangapress-comic-navigation.md)
 * [mangapress\_get\_calendar](template-tags/mangapress-get-calendar.md)
+* [mangapress_theme_supports_cover_images](template-tags/mangapress_theme_supports_cover_images.md)
+* [mangapress_has_cover_image](template-tags/mangapress_has_cover_image.md)
+* [mangapress_the_comic_cover](template-tags/mangapress_the_comic_cover.md)
 
 ## Functions
 
